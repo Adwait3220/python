@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% block title %}
+Rhythm_strings
+{% endblock title %}
+{% block body %}
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+      aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+      aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/img1.jpg" class="d-block w-100" alt="..." height=500 width=600>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img2.png" class="d-block w-100" alt="..." height=500 width=600>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img3.jpg" class="d-block w-100" alt="..." height=500 width=600>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container">
+  <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+
+    <h1 class="display-4 fst-italic text-center">Welcome to Rhythm_Strings</h1>
+    <p class="lead my-3" style="text-align:center">Music gives a soul to the universe, wings to the mind, flight to the
+      imagination and life to everything.
+      We RhythmNStrings believes in bringing the world close together through our music.
+      So if you love music and your heart craves to sing it all, don't ache, RhythmNStrings is the podium for you, For
+      now, and times beyond.
+      We have our original compositions created which would drive you crazy. Also the variety of content containing
+      elements of music, travel, life lessons, love, motivation including original songs, covers, acoustic covers and
+      much more.
+      So all the music lovers who believe in the magic of music come to join us by subscribing our channel and live the
+      magic of music with RhythmNStrings.</p>
+    <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+  </div>
+</div>
+</div>
+<div class container>
+  <h1 class="my-4 text-center">Link for Albums</h1>
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src="/static/img2.png">
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/img2.png">
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/img2.png">
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      {% endblock body %}
